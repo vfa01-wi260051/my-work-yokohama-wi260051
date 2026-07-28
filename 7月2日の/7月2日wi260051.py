@@ -5,7 +5,7 @@ img = [None]*14
 card = [0]*26
 face = [0]*26
 
-
+ 
 def draw_card():
     cvs.delete("all")
     for i in range(26):
